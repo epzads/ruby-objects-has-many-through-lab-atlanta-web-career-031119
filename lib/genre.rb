@@ -31,7 +31,9 @@ def artists
   array = []
   Song.all.each do |songs|
     
-  
+  if songs.genre == self 
+    
+    array << songs.artist
   
 end   
 end 
