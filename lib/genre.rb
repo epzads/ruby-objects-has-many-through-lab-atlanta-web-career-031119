@@ -38,7 +38,8 @@ def artists
   
 end   
 end 
-    
+    array 
+end     
 
 def self.all 
 
