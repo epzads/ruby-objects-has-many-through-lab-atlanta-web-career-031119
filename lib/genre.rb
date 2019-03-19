@@ -20,8 +20,8 @@ def songs
 array = []
   Song.all.select do |songs|
     
-    if songs.genre == self 
-     array >> songs.artist.name 
+    songs.genre == self 
+      
     
 end   
 end   
@@ -30,11 +30,11 @@ def artists
   
   array = []
   Song.all.each do |songs|
-  if songs.  
+    
   
   
-  end 
-  
+   
+end 
     
 
 def self.all 
