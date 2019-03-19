@@ -34,6 +34,7 @@ def artists
   if songs.genre == self 
     
     array << songs.artist
+    array << songs.artist.name 
   
 end   
 end 
