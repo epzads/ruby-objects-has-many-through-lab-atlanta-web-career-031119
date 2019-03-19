@@ -21,7 +21,7 @@ array = []
   Song.all.select do |songs|
     
     if songs.genre == self 
-     array >> songs.
+     array >> songs.artist.name 
     
 end   
 end   
