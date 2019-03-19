@@ -23,6 +23,17 @@ def songs
 end   
 end   
 
+def artists 
+  
+  array = []
+  Song.all.each do |songs|
+  if songs.  
+  
+  
+  end 
+  
+    
+
 def self.all 
 
 @@all 
