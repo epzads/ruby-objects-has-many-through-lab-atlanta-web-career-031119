@@ -33,7 +33,7 @@ def artists
     
   
   
-   
+end   
 end 
     
 
