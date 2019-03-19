@@ -17,8 +17,10 @@ end
 
 def songs 
 
-  puts Song.all.name == self
-  
+  Song.all.select do |songs|
+    
+    songs.genre == self 
+end   
 end   
 
 def self.all 
