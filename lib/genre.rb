@@ -17,7 +17,7 @@ end
 
 def songs 
 
-  
+  Song.all.name == self
   
 end   
 
