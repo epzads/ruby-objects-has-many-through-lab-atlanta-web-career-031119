@@ -17,9 +17,12 @@ end
 
 def songs 
 
+array = []
   Song.all.select do |songs|
     
-    songs.genre == self 
+    if songs.genre == self 
+     array >> songs.
+    
 end   
 end   
 
